@@ -1,0 +1,13 @@
+name: 'Hello-world'
+desription: 'Greet someone and record the time'
+inputs: 
+  name: 
+    description: 'Name'
+    required: true
+    default: 'Raider'
+  outputs:
+    greeting:
+      description: 'How greeted you'
+    runs:
+      using: 'node20'
+      main: 'index.js'
